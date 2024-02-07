@@ -8,6 +8,7 @@
     "dex",
     "flare"
   ],
+  "main": "",
   "files": [
     "contracts/*/interfaces",
     "artifacts/contracts/IgnoreMe.sol/IgnoreMe.json",
