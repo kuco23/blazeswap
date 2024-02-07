@@ -9,13 +9,10 @@
     "flare"
   ],
   "main": "",
-  "files": [
-    "contracts/*/interfaces",
-    "artifacts/contracts/IgnoreMe.sol/IgnoreMe.json",
-    "artifacts/contracts/*/interfaces/**/*.json",
-    "!artifacts/contracts/**/*.dbg.json"
-  ],
-  "types": "./typechain-types/index.ts",
+  "directories": {},
+  "engines" : {
+    "node" : ">=16 <20"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@types/chai": "^4.3.1",
